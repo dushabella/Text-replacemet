@@ -6,18 +6,18 @@ Original file does not change and any changes are saved in _file.n_, where n is 
 
 ***1) Adding permissions to shell file:***
 
-Before running shell script (TODO to get execution file), one needs to add execution permission:
+Before running shell script, one needs to add execution permission:
 
-  $ chmod +x replace.sh
+  $ chmod +x path/to/replace.sh
   
   or 
   
-  $ chmod 777 replace.sh
+  $ chmod 777 path/to/replace.sh
   
   
 
-***Running program:***
+***2) Running program:***
 
-To run the file, type the following command into a console:
+To run the script, type the following command into a console:
   
-  $ replace file text1 text2
+  $ ./replace.sh file text1 text2
